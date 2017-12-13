@@ -1,0 +1,24 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoldber61/Timestamp-Microservice.git"
+  },
+  "author": "sgoldber61",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoldber61/Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/sgoldber61/Timestamp-Microservice#readme",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
