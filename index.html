@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      
+      .code-example {
+        font-family: monospace;
+        background-color: lightgray;
+        color: red;
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Timestamp microservice</h1>
+    <p>This is an API project for FreeCodeCamp with the following functionality (mostly copied from the FreeCodeCamp <a href="https://www.freecodecamp.org/challenges/timestamp-microservice" target="_blank">site</a>):</p>
+    <ol>
+      <li>I can pass a string as a parameter, and it will check to see whether that string contains either a <a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank">unix timestamp</a> (in seconds) or a natural language date (example: January 1, 2016).</li>
+      <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+      <li>If it does not contain a valid date or Unix timestamp, it returns null for those properties.</li>
+    </ol>
+    <h3>Example usage:</h3>
+    <p class="code-example">/December%2014,%202015</p>
+    <br/>
+    <p class="code-example">/1450137600</p>
+    <h3>Example output:</h3>
+    <p class="code-example">{unix: 1450137600, natural: "December 14, 2015"}</p>
+  </body>
+</html>
